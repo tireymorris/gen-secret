@@ -1,0 +1,18 @@
+{
+  "name": "gen-secret",
+  "version": "0.1.0",
+  "description": "Generate a secret key using OpenSSL, for use with JWTs or other custom encoding",
+  "main": "lib/gen-secret.js",
+  "repository": "https://github.com/tireymorris/gen-secret",
+  "author": "tireymorris",
+  "license": "ISC",
+  "keywords": [
+    "gen-secret"
+  ],
+  "bin": {
+    "gen-secret": "bin/gen-secret"
+  },
+  "dependencies": {
+    "openssl-nodejs": "^1.0.5"
+  }
+}
