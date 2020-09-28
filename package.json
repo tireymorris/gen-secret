@@ -1,7 +1,7 @@
 {
   "name": "gen-secret",
-  "version": "0.1.0",
-  "description": "Generate a secret key using OpenSSL, for use with JWTs or other custom encoding",
+  "version": "0.2.0",
+  "description": "Generate a secret key of arbitrary length using OpenSSL, for use with JWTs or other custom encoding",
   "main": "lib/gen-secret.js",
   "repository": "https://github.com/tireymorris/gen-secret",
   "author": "tireymorris",
@@ -13,6 +13,7 @@
     "gen-secret": "bin/gen-secret"
   },
   "dependencies": {
-    "openssl-nodejs": "^1.0.5"
+    "openssl-nodejs": "^1.0.5",
+    "yargs": "^16.0.3"
   }
 }
