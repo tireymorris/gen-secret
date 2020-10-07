@@ -1,5 +1,7 @@
 ## gen-secret
 
+[![Run on Repl.it](https://repl.it/badge/github/tireymorris/gen-secret)](https://repl.it/github/tireymorris/gen-secret)
+
 Uses `openssl-nodejs` package to generate a random base64 secret key of arbitrary length
 
 ### Usage
